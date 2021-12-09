@@ -1,16 +1,15 @@
 import { GetStaticProps } from 'next';
+import { useRouter } from 'next/router';
+import { useEffect } from 'react';
 
 const NotFoundPage = () => {
-  return <div>admiralfeb.net</div>;
-};
+  const router = useRouter();
 
-export const getStaticProps: GetStaticProps = async (context) => {
-  return {
-    redirect: {
-      destination: 'https://ng.admiralfeb.net',
-      permanent: false,
-    },
-  };
+  useEffect(() => {
+    router.push('https://ng.admiralfeb.net');
+  });
+
+  return <div>admiralfeb.net</div>;
 };
 
 export default NotFoundPage;
