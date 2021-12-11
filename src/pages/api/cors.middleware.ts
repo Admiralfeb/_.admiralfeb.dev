@@ -3,7 +3,17 @@ import { NextApiRequest, NextApiResponse } from 'next';
 
 // Init CORS. Accept Get requests from admiralfeb.net or any of its subdomains.
 export const cors = Cors({
-  origin: /admiralfeb\.net$/,
+  // origin: /admiralfeb\.net$/,
+  origin: [
+    'https://admiralfeb.net',
+    'https://www.admiralfeb.net',
+    'https://bwasm.admiralfeb.net',
+    'https://cra.admiralfeb.net',
+    'https://nextjs.admiralfeb.net',
+    'https://ng.admiralfeb.net',
+    'https://rust.admiralfeb.net',
+    'https://vue.admiralfeb.net',
+  ],
   methods: ['GET'],
 });
 
