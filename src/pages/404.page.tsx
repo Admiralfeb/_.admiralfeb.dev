@@ -1,12 +1,12 @@
-import { GetStaticProps } from 'next';
 import { useRouter } from 'next/router';
 import { useEffect } from 'react';
+import { REDIRECT_URL } from 'src/redirect';
 
 const NotFoundPage = () => {
   const router = useRouter();
 
   useEffect(() => {
-    router.push('https://ng.admiralfeb.net');
+    router.push(REDIRECT_URL);
   });
 
   return <div>admiralfeb.net</div>;
