@@ -6,7 +6,7 @@ At the moment, it serves as a landing point for the url and provides APIs to the
 
 ## Current Functionality
 
-Redirects to [Admiralfeb.net - Angular](https://ng.admiralfeb.net) for any non-api url.
+Redirects to [Admiralfeb.net | Vue](https://vue.admiralfeb.net) for any non-api url.
 
 Provides the following APIs for data:
 
