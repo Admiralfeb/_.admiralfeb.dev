@@ -1,12 +1,12 @@
-# admiralfeb.net
+# admiralfeb.dev
 
-This project serves https://admiralfeb.net.
+This project serves https://admiralfeb.dev.
 
-At the moment, it serves as a landing point for the url and provides APIs to the admiralfeb.net subdomains for data retrieval so as to not duplicate code.
+At the moment, it serves as a landing point for the url and provides APIs to the admiralfeb.dev subdomains for data retrieval so as to not duplicate code.
 
 ## Current Functionality
 
-Redirects to [Admiralfeb.net | Vue](https://vue.admiralfeb.net) for any non-api url.
+Redirects to [admiralfeb.dev | Vue](https://vue.admiralfeb.dev) for any non-api url.
 
 Provides the following APIs for data:
 

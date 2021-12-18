@@ -2,7 +2,7 @@ import { GetServerSideProps } from 'next';
 import { REDIRECT_URL } from 'src/redirect';
 
 const HomePage = () => {
-  return <div>admiralfeb.net</div>;
+  return <div>admiralfeb.dev</div>;
 };
 
 export const getServerSideProps: GetServerSideProps = async (context) => {

@@ -1,1 +1,1 @@
-export const REDIRECT_URL = 'https://vue.admiralfeb.net';
+export const REDIRECT_URL = 'https://vue.admiralfeb.dev';

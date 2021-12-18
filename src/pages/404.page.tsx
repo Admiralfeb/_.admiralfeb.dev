@@ -9,7 +9,7 @@ const NotFoundPage = () => {
     router.push(REDIRECT_URL);
   });
 
-  return <div>admiralfeb.net</div>;
+  return <div>admiralfeb.dev</div>;
 };
 
 export default NotFoundPage;
